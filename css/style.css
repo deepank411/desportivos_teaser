@@ -157,14 +157,14 @@ a:hover{
 }
 
 .text{
-   font-size: 35px;
-   color: #000;
-   font-family: 'Courgette',
+   font-size: 40px;
+   color: #ff7400;
+   font-family: 'Oswald',
 }
 
 span.stext{
-   font-size: 45px;
-   color: #000;
+   font-size: 50px;
+   color: #912006;
    font-family: 'Quantico'
 }
 
