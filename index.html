@@ -7,14 +7,9 @@
    <meta name="description" content="teaser website for desportivos 2016">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="css/style.css">
    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-   <link rel="stylesheet" href="css/animations.css">
-   <link rel="stylesheet" href="countdown/flipclock.css">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script src="countdown/flipclock.js"></script>
    <!--[if lt IE 9]>
    <script src="js/lib/html5shiv.js"></script>
    <![endif]-->
@@ -26,55 +21,39 @@
             <img src="img/logo.png" alt="Logo" width="60" height="100">
          </div>
       </div>
-      <!-- <div class="col-lg-9" style="top:30px; text-align: center">
-         <h1>DESPORTIVOS'16</h1>
-      </div> -->
       <div class="col-lg-1">
          <div class="logo-college">
             <a href="http://www.lnmiit.ac.in" target="_blank"><img src="img/college.png" alt="Logo" width="105" height="50"></a>
          </div>
       </div>
-   </div><br><br><br>
+   </div><br><br>
    <div class="row">
-      <div class="col-lg-4 col-md-12 mascot" style="text-align: center; padding-left: 90px; padding-top: 40px;">
+      <div class="col-lg-4 col-xs-12 mascot">
          <img src="img/mascot.png" alt="Logo" height="500">
       </div>
-      <div class="col-lg-8 col-md-12 text" style="text-align:center; padding-top:120px; margin-left: -40px">
-         <h1>DESPORTIVOS'16</h1>
-         <div class="font">
-         Reinvent the champion in you!</div>
-         <div class="clock" style="padding-left: 150px; padding-top: 20px;"></div>
-         <div class="message"></div>
-
-         <script type="text/javascript">
-            var clock;
-
-            $(document).ready(function() {
-               var clock;
-
-               clock = $('.clock').FlipClock({
-                  clockFace: 'DailyCounter',
-                  autoStart: false,
-                  callbacks: {
-                     stop: function() {
-                        $('.message').html('The clock has stopped!')
-                     }
-                  }
-               });
-
-               clock.setTime(6048000);
-               clock.setCountdown(true);
-               clock.start();
-
-            });
-         </script>
+      <div class="col-lg-8 col-xs-12 text">
+         <div class="heading">DESPORTIVOS'16</div>
+         <div class="font">Reinvent the champion in you!</div>
+         <div class="counter">
+          <div class="days-wrapper"> <span class="days"></span> <br>
+            days </div>
+          <div class="hours-wrapper"> <span class="hours"></span> <br>
+            hours </div>
+          <div class="minutes-wrapper"> <span class="minutes"></span> <br>
+            minutes </div>
+          <div class="seconds-wrapper"> <span class="seconds"></span> <br>
+            seconds </div>
+        </div>
       </div>
    </div>
-
-   <a href="https://docs.google.com/forms/d/1N5DvoPf7aQ2hRF65mjajOQ1JoamhWyUTRY0YhUL2o-o/" target="_blank"><button class="about">Pre-Register</button></a>
-
-   <button data-toggle="modal" data-target="#myModal" class=" contact">Contact us</button>
-
+   <div class="row">
+      <div class="col-xs-6">
+         <a href="https://docs.google.com/forms/d/1N5DvoPf7aQ2hRF65mjajOQ1JoamhWyUTRY0YhUL2o-o/" target="_blank"><button class="about">Pre-Register</button></a>
+      </div>
+      <div class="col-xs-6">
+         <button data-toggle="modal" data-target="#myModal" class="contact">Contact us</button>
+      </div>
+   </div>
    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
          <div class="modal-content">
@@ -107,8 +86,9 @@
       </div>
    </div>
 
-
-
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   <script src="js/jquery-1.10.2.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery.countdown.js"></script>
+   <script src="js/custom.js"></script>
 </body>
 </html>
