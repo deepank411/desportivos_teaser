@@ -19,6 +19,11 @@
 
 }
 
+@font-face{
+   font-family: 'DaggerSquare';
+   src: url('../fonts/DAGGERSQUARE.otf');
+}
+
 @font-face {
     font-family: 'Oswald';
     src: url('../fonts/Oswald-Regular-webfont.eot');
@@ -58,15 +63,15 @@ body{
 }
 .logo-despo {
    position: fixed;
-   left: 20px;
+   left: 10px;
    z-index: 10;
-   top: 20px;
+   top: 10px;
 }
 .logo-college{
    position: fixed;
-   right: 20px;
+   right: 10px;
    z-index: 10;
-   top: 20px;
+   top: 10px;
    cursor: pointer;
 }
 h1{
@@ -77,8 +82,8 @@ h1{
 }
 
 h3{
-   font-family: 'CoreCircusPierrot2';
-   font-size: 28px;
+   font-family: 'DaggerSquare';
+   font-size: 30px;
    color: #d8583a;
 }
 
@@ -89,7 +94,7 @@ p.email{
 }
 
 p.number{
-   font-family: 'Quantico';
+   font-family: 'DaggerSquare';
    font-size: 21px;
    color: #d8583a;
 }
@@ -114,7 +119,7 @@ button {
 button:hover {background: #d8583a; color: #fff}
 button:hover:before{color: #d8583a}
 
-button.about {position: fixed; right: 0; bottom: 0; z-index: 2; -webkit-transition: all 0.25s ease; transition: all 0.25s ease}
+button.about {position: fixed; left: 0; bottom: 0; z-index: 2; -webkit-transition: all 0.25s ease; transition: all 0.25s ease}
 
 button.contact {position: fixed; right: 0; bottom: 0; z-index: 2; -webkit-transition: all 0.25s ease; transition: all 0.25s ease}
 
@@ -125,6 +130,7 @@ button.contact {position: fixed; right: 0; bottom: 0; z-index: 2; -webkit-transi
    font-size: 25px;
    font-family: Courgette;
    color: #d8583a;
+   text-align: center;
 }
 .right {
     position: absolute;
@@ -142,7 +148,7 @@ hr.style14 {
 }
 
 .button {display: inline-block; width: 87px; height: 87px; border: none; background: #eda949; color: #fff; font-family: 'Oswald', 'Arial', 'Helvetica', 'sans-serif'; font-size: 18px; font-weight: 700; text-align: center; text-transform: uppercase; -webkit-transition: all 0.25s ease; transition: all 0.25s ease}
-.button.big {width: auto; height: auto; padding: 38px 20px; font-size: 24px}
+.button.big {width: auto; height: auto; padding: 15px 20px; font-size: 24px}
 .button.big:before {position: relative; top: 15px; left: -12px; font-size: 30px; line-height: 0}
 .button.secondary {background: #d8583a}
 
@@ -177,4 +183,12 @@ span{
    .text{
       text-align: center;
    }
+}
+
+.font{
+   font-family: 'DaggerSquare';
+}
+
+.modal{
+   border: #000;
 }
