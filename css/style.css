@@ -220,7 +220,7 @@ hr.style14 {
    font-size: 40px;
    font-family: 'Oswald';
    color: #fff;
-   text-align: center;
+   text-align: center !important;
 }
 
 span.stext{
@@ -295,6 +295,9 @@ span{
       text-align: center;
       font-size: 40px;
    }
+   .mascot-logo{
+      height: 600px;
+   }
 }
 
 @media (min-width: 979px) and (max-width: 1200px){
@@ -329,6 +332,9 @@ span{
       color: #ff7400;
       text-align: center;
       font-size: 35px;
+   }
+   .mascot-logo{
+      height: 600px;
    }
 }
 
@@ -367,6 +373,9 @@ span{
    .counter .days, .counter .hours, .counter .minutes, .counter .seconds {
    	font-size: 50px;
    	line-height: 60px;
+   }
+   .mascot-logo{
+      height: 550px;
    }
 }
 
@@ -407,6 +416,9 @@ span{
    	font-size: 40px;
    	line-height: 50px;
    }
+   .mascot-logo{
+      height: 500px;
+   }
 }
 
 @media (max-width: 480px) {
@@ -440,6 +452,9 @@ span{
    .counter .days, .counter .hours, .counter .minutes, .counter .seconds {
    	font-size: 30px;
    	line-height: 40px;
+   }
+   .mascot-logo{
+      height: 400px !important;
    }
 }
 
