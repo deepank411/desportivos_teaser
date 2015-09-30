@@ -78,13 +78,7 @@ body{
    top: 10px;
    cursor: pointer;
 }*/
-div.heading{
-   font-family: 'CoreCircusPierrot2';
-   font-size: 85px;
-   color: #d8583a;
-   letter-spacing: -16px;
 
-}
 
 h1 {
   font-size: 32px;
@@ -239,12 +233,6 @@ span{
    font-size: 15px;
 }
 
-.font{
-   font-family: 'DaggerSquare';
-   color: #ff7400;
-   text-align: center;
-}
-
 .mascot{
    text-align: center;
 }
@@ -277,7 +265,7 @@ span{
 
 /***** Media Queries *****/
 
-@media (min-width: 979px) {
+@media (min-width: 1200px){
    .text{
       padding-top: 50px;
       padding-right: 100px;
@@ -294,9 +282,54 @@ span{
       /*background-color: #eda949;*/
       background-color: #fad5a1;
       bottom: 0;
+   }
+   div.heading{
+      font-family: 'CoreCircusPierrot2';
+      font-size: 80px;
+      color: #d8583a;
+      letter-spacing: -16px;
+   }
+   .font{
+      font-family: 'DaggerSquare';
+      color: #ff7400;
+      text-align: center;
+      font-size: 40px;
+   }
+}
+
+@media (min-width: 979px) and (max-width: 1200px){
+   .text{
+      padding-top: 50px;
+      padding-right: 100px;
+   }
+   .mascot{
+      /*padding-top: 50px;*/
+      /*padding-left: 120px;*/
+   }
+   footer#footer{
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      color: #d8583a;
+      /*background-color: #eda949;*/
+      background-color: #fad5a1;
 
    }
-
+   .counter{
+      margin-bottom: 10px;
+   }
+   div.heading{
+      font-family: 'CoreCircusPierrot2';
+      font-size: 75px;
+      color: #d8583a;
+      letter-spacing: -16px;
+   }
+   .font{
+      font-family: 'DaggerSquare';
+      color: #ff7400;
+      text-align: center;
+      font-size: 35px;
+   }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
@@ -306,12 +339,24 @@ span{
       color: #d8583a;
       /*background-color: #eda949;*/
       background-color: #fad5a1;
-
+      bottom: 0;
+      margin-top: 10px;
+   }
+   div.heading{
+      font-family: 'CoreCircusPierrot2';
+      font-size: 65px;
+      color: #d8583a;
+      letter-spacing: -10px;
+   }
+   .font{
+      font-family: 'DaggerSquare';
+      color: #ff7400;
+      text-align: center;
+      font-size: 30px;
    }
 
-
    .counter .days-wrapper, .counter .hours-wrapper, .counter .minutes-wrapper, .counter .seconds-wrapper {
-   	width: 140px;
+   	width: 120px;
    	height: 120px;
    	margin: 0 7px;
    	padding-top: 20px;
@@ -320,8 +365,8 @@ span{
    	border-radius: 70px;
    }
    .counter .days, .counter .hours, .counter .minutes, .counter .seconds {
-   	font-size: 60px;
-   	line-height: 70px;
+   	font-size: 50px;
+   	line-height: 60px;
    }
 }
 
@@ -337,18 +382,30 @@ span{
       background-color: #fad5a1;
       bottom: 0;
    }
+   div.heading{
+      font-family: 'CoreCircusPierrot2';
+      font-size: 60px;
+      color: #d8583a;
+      letter-spacing: -10px;
+   }
+   .font{
+      font-family: 'DaggerSquare';
+      color: #ff7400;
+      text-align: center;
+      font-size: 30px;
+   }
    .counter .days-wrapper, .counter .hours-wrapper, .counter .minutes-wrapper, .counter .seconds-wrapper {
-   	width: 140px;
-   	height: 120px;
+   	width: 100px;
+   	height: 100px;
    	margin: 7px;
-   	padding-top: 20px;
+   	padding-top: 15px;
    	-moz-border-radius: 70px;
    	-webkit-border-radius: 70px;
    	border-radius: 70px;
    }
    .counter .days, .counter .hours, .counter .minutes, .counter .seconds {
-   	font-size: 60px;
-   	line-height: 70px;
+   	font-size: 40px;
+   	line-height: 50px;
    }
 }
 
@@ -356,15 +413,33 @@ span{
    footer#footer{
       text-align: center;
       color: #d8583a;
-      /*background-color: #eda949;*/
       background-color: #fad5a1;
       margin-top: 20px;
    }
-   #footer a{
-      padding-top: 20px;
+   div.heading{
+      font-family: 'CoreCircusPierrot2';
+      font-size: 45px;
+      color: #d8583a;
+      letter-spacing: -10px;
    }
-   #footer .div.button{
-      padding-top: 10px;
+   .font{
+      font-family: 'DaggerSquare';
+      color: #ff7400;
+      text-align: center;
+      font-size: 25px;
+   }
+   .counter .days-wrapper, .counter .hours-wrapper, .counter .minutes-wrapper, .counter .seconds-wrapper {
+   	width: 80px;
+   	height: 80px;
+   	margin: 7px;
+   	padding-top: 10px;
+   	-moz-border-radius: 70px;
+   	-webkit-border-radius: 70px;
+   	border-radius: 70px;
+   }
+   .counter .days, .counter .hours, .counter .minutes, .counter .seconds {
+   	font-size: 30px;
+   	line-height: 40px;
    }
 }
 
