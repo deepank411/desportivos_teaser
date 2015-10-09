@@ -23,6 +23,10 @@
    font-family: 'DaggerSquare';
    src: url('../fonts/DAGGERSQUARE.otf');
 }
+@font-face{
+   font-family: 'DaggerSquareOblique';
+   src: url('../fonts/DAGGERSQUARE OBLIQUE.otf');
+}
 
 @font-face {
     font-family: 'Oswald';
@@ -180,8 +184,8 @@ hr.style14 {
    width: 100px;
    height: 50px;
    border: none;
-   background: #eda949;
-   color: #fff;
+   background: #fad5a1;
+   color: #aa690e;
    font-family: 'Oswald', 'Arial', 'Helvetica', 'sans-serif';
    font-size: 18px;
    font-weight: 700;
@@ -207,13 +211,13 @@ hr.style14 {
 }
 
 .button.secondary {
-   background: #d8583a
+   background: #d8583a;
 }
 
 .button.big:hover{
    text-decoration: none;
-   color: #fff;
-   background-color: #d8583a;
+   color: #d8583a;
+   /*background-color: #d8583a;*/
 }
 
 .text{
@@ -297,6 +301,9 @@ span{
    }
    .mascot-logo{
       height: 600px;
+   }
+   .main{
+      margin-top:30px;
    }
 }
 
