@@ -279,7 +279,8 @@ span{
       /*padding-left: 120px;*/
    }
    footer#footer{
-      position: absolute;
+      /*position: absolute;*/
+      margin-top: 7%;
       width: 100%;
       text-align: center;
       color: #d8583a;
