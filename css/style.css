@@ -23,6 +23,7 @@
    font-family: 'DaggerSquare';
    src: url('../fonts/DAGGERSQUARE.otf');
 }
+
 @font-face{
    font-family: 'DaggerSquareOblique';
    src: url('../fonts/DAGGERSQUARE OBLIQUE.otf');
@@ -69,20 +70,6 @@ html,body{
 body{
    background: url('../img/bg_section1.gif');
 }
-/*.logo-despo {
-   position: fixed;
-   left: 10px;
-   z-index: 10;
-   top: 10px;
-}
-.logo-college{
-   position: fixed;
-   right: 10px;
-   z-index: 10;
-   top: 10px;
-   cursor: pointer;
-}*/
-
 
 h1 {
   font-size: 32px;
@@ -168,15 +155,6 @@ button.contact {
     position: absolute;
     right: 0px;
     width: 400px;
-}
-
-hr.style14 {
-  border: 0;
-  height: 3px;
-  background-image: -webkit-linear-gradient(left, #ffa58f, #d8583a, #ffa58f);
-  background-image: -moz-linear-gradient(left, #ffa58f, #d8583a, #ffa58f);
-  background-image: -ms-linear-gradient(left, #ffa58f, #d8583a, #ffa58f);
-  background-image: -o-linear-gradient(left, #ffa58f, #d8583a, #ffa58f);
 }
 
 .button {
@@ -303,9 +281,14 @@ span{
    .mascot-logo{
       height: 600px;
    }
-   .main{
-      margin-top:30px;
+   h3{
+      font-family: 'DaggerSquare';
+      font-size: 30px;
+      color: #d8583a;
    }
+   /*.main{
+      margin-top:30px;
+   }*/
 }
 
 @media (min-width: 979px) and (max-width: 1200px){
@@ -343,6 +326,11 @@ span{
    }
    .mascot-logo{
       height: 600px;
+   }
+   h3{
+      font-family: 'DaggerSquare';
+      font-size: 27px;
+      color: #d8583a;
    }
 }
 
@@ -384,6 +372,11 @@ span{
    }
    .mascot-logo{
       height: 550px;
+   }
+   h3{
+      font-family: 'DaggerSquare';
+      font-size: 25px;
+      color: #d8583a;
    }
 }
 
@@ -427,6 +420,17 @@ span{
    .mascot-logo{
       height: 500px;
    }
+   h3{
+      font-family: 'DaggerSquare';
+      font-size: 25px;
+      color: #d8583a;
+   }
+   .button.big {
+      width: auto;
+      height: auto;
+      padding: 14px 18px;
+      font-size: 20px;
+   }
 }
 
 @media (max-width: 480px) {
@@ -438,15 +442,15 @@ span{
    }
    div.heading{
       font-family: 'CoreCircusPierrot2';
-      font-size: 45px;
+      font-size: 42px;
       color: #d8583a;
-      letter-spacing: -10px;
+      letter-spacing: -8px;
    }
    .font{
       font-family: 'DaggerSquare';
       color: #ff7400;
       text-align: center;
-      font-size: 25px;
+      font-size: 23px;
    }
    .counter .days-wrapper, .counter .hours-wrapper, .counter .minutes-wrapper, .counter .seconds-wrapper {
    	width: 80px;
@@ -463,6 +467,17 @@ span{
    }
    .mascot-logo{
       height: 400px !important;
+   }
+   h3{
+      font-family: 'DaggerSquare';
+      font-size: 23px;
+      color: #d8583a;
+   }
+   .button.big {
+      width: auto;
+      height: auto;
+      padding: 10px 15px;
+      font-size: 17px;
    }
 }
 
